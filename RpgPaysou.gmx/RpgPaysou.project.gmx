@@ -5,9 +5,28 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprites name="Player">
+      <sprite>sprites\sPlayer</sprite>
+      <sprite>sprites\sWall</sprite>
+    </sprites>
+    <sprite>sprites\sWarp</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scFindDepth.gml</script>
+  </scripts>
+  <objects name="objects">
+    <object>objects\oPlayer</object>
+    <object>objects\oWall</object>
+    <object>objects\oWarp</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rNiveau1</room>
+    <room>rooms\rNiveau2</room>
+    <room>rooms\rNiveau3</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
