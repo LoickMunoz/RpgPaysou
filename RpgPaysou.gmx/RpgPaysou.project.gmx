@@ -3,7 +3,9 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
-  <NewExtensions/>
+  <NewExtensions>
+    <extension index="0">extensions\Game_Pause</extension>
+  </NewExtensions>
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprites name="Player">
@@ -17,11 +19,16 @@
     </sprites>
   </sprites>
   <backgrounds name="background"/>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\path</path>
+  </paths>
   <scripts name="scripts">
     <script>scripts\scFindDepth.gml</script>
     <script>scripts\scMenu.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\font_menu</font>
+  </fonts>
   <objects name="objects">
     <object>objects\oPlayer</object>
     <object>objects\oWall</object>
@@ -30,7 +37,13 @@
       <object>objects\oMenuPlay</object>
       <object>objects\oCursor</object>
     </objects>
+    <object>objects\oPause</object>
+    <object>objects\oEnemi</object>
+    <object>objects\oCNiveau1</object>
   </objects>
+  <timelines name="timelines">
+    <timeline>timelines\timeline0</timeline>
+  </timelines>
   <rooms name="rooms">
     <room>rooms\rMenu</room>
     <room>rooms\rNiveau1</room>

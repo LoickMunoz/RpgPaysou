@@ -72,6 +72,8 @@
     <instance objName="oWarp" x="32" y="736" name="inst_CC988EBC" locked="0" code="" scaleX="39" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWarp" x="1248" y="0" name="inst_ACF88325" locked="0" code="target_r = rNiveau3&#xA;" scaleX="1" scaleY="23" colour="4294967295" rotation="0"/>
     <instance objName="oWarp" x="32" y="0" name="inst_2EE02EFA" locked="0" code="" scaleX="38" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oPause" x="32" y="64" name="inst_74F2293E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCNiveau1" x="32" y="32" name="inst_08F1239C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
