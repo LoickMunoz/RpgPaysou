@@ -11,18 +11,28 @@
       <sprite>sprites\sWall</sprite>
     </sprites>
     <sprite>sprites\sWarp</sprite>
+    <sprites name="Menu">
+      <sprite>sprites\sPlay</sprite>
+      <sprite>sprites\sCursor</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scFindDepth.gml</script>
+    <script>scripts\scMenu.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\oPlayer</object>
     <object>objects\oWall</object>
     <object>objects\oWarp</object>
+    <objects name="Menu">
+      <object>objects\oMenuPlay</object>
+      <object>objects\oCursor</object>
+    </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rMenu</room>
     <room>rooms\rNiveau1</room>
     <room>rooms\rNiveau2</room>
     <room>rooms\rNiveau3</room>
