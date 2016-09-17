@@ -17,6 +17,11 @@
       <sprite>sprites\sPlay</sprite>
       <sprite>sprites\sCursor</sprite>
     </sprites>
+    <sprites name="Monster">
+      <sprites name="Slime">
+        <sprite>sprites\sSlime_Haut</sprite>
+      </sprites>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths">
