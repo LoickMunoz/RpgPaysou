@@ -9,8 +9,11 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprites name="Player">
-      <sprite>sprites\sPlayer</sprite>
       <sprite>sprites\sWall</sprite>
+      <sprite>sprites\sPlayer_Bas</sprite>
+      <sprite>sprites\sPlayer_Gauche</sprite>
+      <sprite>sprites\sPlayer_Droite</sprite>
+      <sprite>sprites\sPlayer_Haut</sprite>
     </sprites>
     <sprite>sprites\sWarp</sprite>
     <sprites name="Menu">
